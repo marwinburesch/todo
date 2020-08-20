@@ -2,45 +2,27 @@
   "todos": [
     {
       "id": 1,
-      "title": "Wohnung mieten"
+      "title": "Wohnung mieten",
+      "author": "Leon",
+      "complete": false
     },
     {
       "id": 2,
-      "title": "Geld verdienen"
+      "title": "Geld verdienen",
+      "author": "Elfriede",
+      "complete": false
     },
     {
+      "id": 3,
       "title": "Geh mal Bier holen",
-      "author": "Marwin",
-      "id": 3
+      "complete": false,
+      "author": "Marwin"
     },
     {
+      "id": 4,
       "title": "Wäsche Waschen",
-      "author": "Marwin",
-      "id": 4
-    },
-    {
-      "title": "Test",
-      "author": "Test",
-      "createdAt": 1597833561349,
-      "id": 5
-    },
-    {
-      "title": "asdas",
-      "author": "dfgsdf",
-      "createdAt": 1597841575189,
-      "id": 6
-    },
-    {
-      "title": "asd",
-      "author": "sdafsd",
-      "createdAt": 1597841601226,
-      "id": 7
-    },
-    {
-      "title": "saf",
-      "author": "asdf",
-      "createdAt": 1597841613951,
-      "id": 8
+      "complete": false,
+      "author": "Marwin"
     }
   ]
 }
