@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { postTodo } from "../api/todos";
 
-function AddTask() {
+function AddTodo() {
   const [title, setTitle] = useState("");
   const [author, setAuthor] = useState("");
   const [loading, setLoading] = useState(false);
@@ -61,4 +61,4 @@ function AddTask() {
   );
 }
 
-export default AddTask;
+export default AddTodo;

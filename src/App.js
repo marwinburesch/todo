@@ -2,14 +2,14 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import AddTask from "./pages/AddTask";
+import AddTodo from "./pages/AddTodo";
 
 function App() {
   return (
     <Router>
       <Switch>
         <Route path="/add">
-          <AddTask />
+          <AddTodo />
         </Route>
         <Route path="/">
           <Home />

@@ -8,7 +8,7 @@ function Home() {
 
   return (
     <div>
-      <Link to="/add">Add Task</Link>
+      <Link to="/add">Add Todo</Link>
       {error && <div>ERROR!</div>}
       {loading && <div>Loading...</div>}
       {todos?.map((todo) => (
