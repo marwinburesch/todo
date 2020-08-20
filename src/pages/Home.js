@@ -13,7 +13,7 @@ function Home() {
       {error && <div>ERROR!</div>}
       {loading && <div>Loading...</div>}
       {todos?.map((todo) => (
-        <Todo todo={todo} />
+        <Todo key={todo.id} todo={todo} />
       ))}
     </div>
   );

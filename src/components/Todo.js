@@ -13,7 +13,7 @@ export default function Todo({ todo }) {
   }
 
   return (
-    <Container key={todo.id} complete={complete}>
+    <Container complete={complete}>
       <h2>{todo.title}</h2>
       <Button onClick={completeTodo}>Complete</Button>
       <ResetButton onClick={resetTodo}>Reset</ResetButton>
